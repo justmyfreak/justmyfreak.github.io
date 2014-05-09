@@ -4,6 +4,9 @@ title: Blogging with Jekyll
 description: blogging with jekyll and getting it running on github pages
 comments: true
 share: true
+
+published: true;
+excerpt: "Blogging with Jekyll is fun, easy, and free. Jekyll focus on content"
 ---
 
 # What is Jekyll?
@@ -15,7 +18,7 @@ Jekyll let us write our blog in plain text. No, we are not gonna write post in p
 It's a common question. We already have powerful blogging and content management system such as Wordpress, Drupal, Joomla, etc. My personal answer is **Simplicity**. I love Jekyll's no-database approach. Serving static pages means, faster load time.
 
 ### Simple
-No database setup, comment meoderation, no annoying update notification. Jekyll focus on content. 
+No database setup, comment moderation, no annoying update notification. Jekyll focus on content. 
 
 ### Static
 Write content on static markdown, textile, or liquid. Jekyll will '*compile*' it to html static site. Serving static file is a lot faster than serving content from database.
