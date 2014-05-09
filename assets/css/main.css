@@ -295,20 +295,20 @@ h1 {
 }
 
 a {
-  color: #222222;
+  color: #18a4ed;
   text-decoration: none;
 }
 
 a:visited {
-  color: #555555;
+  color: #77c9f4;
 }
 
 a:hover {
-  color: #000000;
+  color: #0b6594;
 }
 
 a:focus {
-  color: #000000;
+  color: #0b6594;
   outline: thin dotted;
 }
 
@@ -3775,7 +3775,7 @@ body {
 
 .entry-content p > a,
 .entry-content li > a {
-  border-bottom: 1px dotted #a2a2a2;
+  border-bottom: 1px dotted #ffffff;
 }
 
 .entry-content p > a:hover,
@@ -4180,7 +4180,7 @@ body {
 
 .read-more-content p > a,
 .read-more-content li > a {
-  border-bottom: 1px dotted #a2a2a2;
+  border-bottom: 1px dotted #ffffff;
 }
 
 .read-more-content p > a:hover,
