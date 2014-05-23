@@ -6,7 +6,6 @@ comments: true
 share: true
 
 published: true;
-excerpt: "Blogging with Jekyll is fun, easy, and free. Jekyll focus on content"
 ---
 
 # What is Jekyll?
