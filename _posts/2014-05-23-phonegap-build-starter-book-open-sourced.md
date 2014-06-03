@@ -11,7 +11,7 @@ published: true;
 
 [PhoneGap Build Starter](https://leanpub.com/phonegapbuild) is a starter guide to create mobile application using web technologies using [PhoneGap Build Service](http://build.phonegap.com). The book covers easy step by step guide to build mobile application as well as PhoneGap Build advance features. The price of the book is FREE, but donation will always be appreciated and every donation will be donated to [Watsi](https://watsi.org).
 
-# Why it is FREE?
+# Why is it FREE?
 I decided to make the book available for free since I think it's the time to contribute back to the community. I learned the technology for free, so it will be my contribution. :)
 
 # Why Watsi?
