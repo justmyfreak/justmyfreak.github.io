@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tools for Modern Web Developers"
+title: "Tools for Modern Web Developer"
 modified: 2014-06-03 15:46:09 +0700
 tags: [web dev, tools]
 comments: true
@@ -9,7 +9,7 @@ share: true
 published: true
 ---
 
-Developments tools are created not only to boost developer's productivity, but also make development process more enjoyable. In this article, I will cover some development tools that I used often. Please note that I won't cover in-depth tutorial for each tools. This article covers only a gentle intruduction, reason to use, and main function of the tools.
+Development tools are created not only to boost developer's productivity, but also make development process more enjoyable. In this article, I will cover some development tools that I used often. Please note that I won't cover in-depth tutorial for each tools. This article covers only a gentle intruduction, reason to use, and main function of the tools.
 
 # Git
 [Git](http://git-scm.com/) is distributed source code management originally created by Linus Torvalds. Being distributed means that Git repository is not centralized. Each repository has its own history and full tracking capabilities. Each repository can be synched to fetch or push changes. Git popularity is increasing due to social coding service like GitHub.
@@ -17,7 +17,7 @@ Developments tools are created not only to boost developer's productivity, but a
 In the past, I often made backup folder to create source code version. But the problem is the more version I create, it takes more space on my disk. I couldn't see the difference between one version to other in details. By using Git, I can track my repository changes and give version to my source code. Git repository takes less space on disk, because it save only code changes not whole repository. I can compare each file to see the difference.
 
 <figure class="center">
-	<a href="{{ site.url }}images/posts/tools-for-modern-developers/nogit-git-comparison.png"><img src="{{ site.url }}images/posts/tools-for-modern-developers/nogit-git-comparison.png" alt="Git comparison"></a>
+	<a href="{{ site.url }}/images/posts/tools-for-modern-developers/nogit-git-comparison.png"><img src="{{ site.url }}/images/posts/tools-for-modern-developers/nogit-git-comparison.png" alt="Git comparison"></a>
 	<figcaption>Versioning without Git and using Git comparasion</figcaption>
 </figure>
 
@@ -73,14 +73,14 @@ Grunt provides plugins to aid you doing repetitive task. Plugin listing can be f
 # Conclusion
 
 <figure class="center">
-	<a href="{{ site.url }}images/posts/tools-for-modern-developers/yeoman-grunt-bower-love.png"><img src="{{ site.url }}images/posts/tools-for-modern-developers/yeoman-grunt-bower-love.png" alt="Yeoman + Grunt + Bower = Love"></a>
+	<a href="{{ site.url }}/images/posts/tools-for-modern-developers/yeoman-grunt-bower-love.png"><img src="{{ site.url }}/images/posts/tools-for-modern-developers/yeoman-grunt-bower-love.png" alt="Yeoman + Grunt + Bower = Love"></a>
 	<figcaption>Yeoman + Grunt + Bower = Love</figcaption>
 </figure>
 
 Yeoman give a better and fun workflow by utilizing Grunt and Bower. Removing repetitive task boredom and making JS-CSS addition easier. 
 
 <figure class="center">
-	<a href="{{ site.url }}images/posts/tools-for-modern-developers/yeoman-webapp-directory.png"><img src="{{ site.url }}images/posts/tools-for-modern-developers/yeoman-webapp-directory.png" alt="Yeoman webapp project directory"></a>
+	<a href="{{ site.url }}/images/posts/tools-for-modern-developers/yeoman-webapp-directory.png"><img src="{{ site.url }}/images/posts/tools-for-modern-developers/yeoman-webapp-directory.png" alt="Yeoman webapp project directory"></a>
 	<figcaption>Yeoman webapp project directory</figcaption>
 </figure>
 
