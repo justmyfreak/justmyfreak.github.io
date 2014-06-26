@@ -28,7 +28,7 @@ Git is useful not only to give version and track code changes, but also make col
 # Node.JS
 Node.JS is a software platform for server-side and networking applications. Node.JS are written in JavaScript and run on Google V8. Nowaday, Node.JS is not only used as server-side and networking applications but also to do general purpose scripting. You can think Node.JS gives JavaScript capabilities to be general purpose programming language such as Ruby, Java, and Python. In this article, we are not going to explore how to use Node.JS to build server side application. We will cover how to utilize Node.JS power to boost developer productivity.
 
-Node.JS has its own dependancy manager named Node Package Manager(NPM). NPM is like Gem to Ruby and Pear/Composer to PHP. Dependancy manager allows us to include others code easily. You can browse packages on [npmjs](https://npmjs.org/).
+Node.JS has its own dependancy manager named Node Packaged Modules (NPM). NPM is like Gem to Ruby and Pear/Composer to PHP. Dependancy manager allows us to include others code easily. You can browse packages on [npmjs](https://npmjs.org/).
 
 To start using Node.JS, you can download it on [http://nodejs.org/download/](http://nodejs.org/download/). Choose your machine platform. To test your installation, you can run ```node -v```. If you see version number, it means Node.JS is intalled into your machine.
 
