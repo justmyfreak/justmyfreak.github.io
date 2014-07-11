@@ -14,8 +14,10 @@ layout: nil
     {% endfor %}
 
     {% for post in site.posts %}
+    {% if post.published %}
     <url>
         <loc>{{ site.url }}{{ post.url }}</loc>
     </url>
+    {% endif %}
     {% endfor %}
 </urlset>
