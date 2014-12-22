@@ -8,7 +8,9 @@ image:
   credit: 
   creditlink: 
 comments: 
-share: 
+share: true;
+
+published: true; 
 ---
 
 If you like to read books, especially technical book like I do, I have a great news for you. In this post I'd like to share a great stuff. This year, Packt Publishing is having eBook Bonanza. This is a great time to get books you want on Packt.
