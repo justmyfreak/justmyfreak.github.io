@@ -1,70 +1,61 @@
-title:            JustMyFreak
-description:      Just another Code Artisan blog.
-disqus_shortname: justmyfreak
-#Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              https://justmyfreak.com
+# Site settings
+title: justmyfreak
+tagline: Just Another Code Artisan Blog 
+email: justmyfreak@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Hi, I’m a professional web and mobile app developer. 
+  I love learning new technology.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+logourl: /assets/images/logo.png # Site logo
+author: "Zainul Setyo Pamungkas"
+author_thumbnail: "/assets/images/avatar.png" # Author avatar
+# Theme customization - please change from the defaults!
+theme:
+  # Color for sidebar bar, links, etc
+  highlight_color: "#205081" #205081" # "#272935"
+  # Social media links, leave blank to ignore
+  social: 
+    github: justmyfreak
+    twitter: justmyfreak
+    facebook: justmyfreak
+    gplus: +justmyfreak
+    # dribble: gayanvirajith
+    # pinterest: gayanvirajith
 
-# Owner/author information
-owner:
-  name:           Zainul Setyo Pamungkas
-  avatar:         avatar.jpg
-  bio:            "Code artisan, web and mobile geeks."
-  email:          just.my.freak@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        justmyfreak
-  facebook:       justmyfreak
-  github:         justmyfreak
-  stackexchange:  
-  linkedin:       zainulsetyo
-  instagram:      
-  flickr:         
-  tumblr:         justmyfreak
-  # For Google Authorship https://plus.google.com/authorship
-  google_plus:   https://plus.google.com/+ZainulSetyoPamungkas
+  # Enable share buttons on post footer
+  show_share_buttons: true
 
-# Background image to be tiled on all pages
-background: 
+  # Show author picure, name and social links on post footer
+  show_author_info: true
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   UA-46312467-2
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+  # Disqus comments manager - shortname
+  disqus_shortname: justmyfreak
 
-# Links to include in top navigation
-# For external links add external: true
-links:
- - title: Books
-   url: /books
-#  - title: External Link
-#    url: http://mademistakes.com
-#    external: true
+  # Google Analytics/Webmaster key, leave blank to ignore
+  google_analytics_key: 
+  google_webmaster_key: 
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-future:      true
-pygments:    true
-markdown:    kramdown
+# Build settings
+markdown: kramdown
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+# Permalinks
+permalink:        pretty
 
-# Amount of post to show on home page
+# Pagination config
 paginate: 5
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
+# Files/Folders to be excluded from generated _site folder
+exclude: 
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
 
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", ".git"]
+# Sass conversion configs
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed

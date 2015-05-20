@@ -10,7 +10,7 @@ image:
 comments: 
 share: true
 
-published: true;
+permalink: phonegap-mobile-application-development-hotshot-review
 ---
 
 When designing mobile app, there is one thing that should be decided early whether the app will be a native, a web, or hybrid app. Each type of app uses different technoligies to build, and consideration of each pros and cons is needed. The right choice of technolgy is one of the key to have successful app or product.

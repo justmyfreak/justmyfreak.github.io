@@ -1,13 +1,18 @@
 ---
 layout: page
-permalink: /about/
 title: About me
-tags: [Jekyll, theme, modern, minimal, responsive]
-image:
-  feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
-share: true
+permalink: /about/
+banner_image: sample-banner-image-2.jpg
+banner_image_alt: About me
 ---
 
-Under Construction :)
+Hi, I am Zainul Setyo Pamungkas, a professional web and mobile app developer. I love learning new technology.
+
+### Contact me
+
+Say `Hello` at justmyfreak@gmail.com or find
+me on
+
+---
+
+{% include social.html %}

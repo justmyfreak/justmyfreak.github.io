@@ -6,7 +6,7 @@ tags: [web dev, tools]
 comments: true
 share: true
 
-published: true
+permalink: tools-for-modern-web-developer
 ---
 
 Development tools are created not only to boost developer's productivity, but also make development process more enjoyable. In this article, I will cover some development tools that I used often. Please note that I won't cover in-depth tutorial for each tools. This article covers only a gentle intruduction, reason to use, and main function of the tools.

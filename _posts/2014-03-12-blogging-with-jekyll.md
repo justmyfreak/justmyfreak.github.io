@@ -5,7 +5,7 @@ description: blogging with jekyll and getting it running on github pages
 comments: true
 share: true
 
-published: true;
+permalink: blogging-with-jekyll
 ---
 
 # What is Jekyll?

@@ -6,7 +6,7 @@ tags: [phonegap, mobile dev]
 comments: true
 share: true
 
-published: true;
+permalink: phonegap-build-starter-book-open-sourced
 ---
 
 [PhoneGap Build Starter](https://leanpub.com/phonegapbuild) is a starter guide to create mobile application using web technologies using [PhoneGap Build Service](http://build.phonegap.com). The book covers easy step by step guide to build mobile application as well as PhoneGap Build advance features. The price of the book is FREE, but donation will always be appreciated and every donation will be donated to [Watsi](https://watsi.org).

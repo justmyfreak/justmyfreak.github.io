@@ -3,14 +3,11 @@ layout: post
 title: "Packt eBook Bonanza is back"
 modified: 2014-12-22 10:33:19 +0700
 tags: [book]
-image:
-  feature: 
-  credit: 
-  creditlink: 
+
 comments: 
 share: true;
 
-published: true; 
+permalink: packt-ebook-bonanza-is-back
 ---
 
 If you like to read books, especially technical book like I do, I have a great news for you. In this post I'd like to share a great stuff. This year, Packt Publishing is having eBook Bonanza. This is a great time to get books you want on Packt.
