@@ -19,7 +19,7 @@ theme:
     github: justmyfreak
     twitter: justmyfreak
     facebook: justmyfreak
-    gplus: +justmyfreak
+    # gplus: +justmyfreak
     # dribble: gayanvirajith
     # pinterest: gayanvirajith
 
@@ -33,7 +33,7 @@ theme:
   disqus_shortname: justmyfreak
 
   # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key: 
+  google_analytics_key: UA-46312467-2
   google_webmaster_key: 
 
 # Build settings
