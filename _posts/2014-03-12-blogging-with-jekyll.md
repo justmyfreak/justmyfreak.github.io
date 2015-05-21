@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blogging with Jekyll
-description: blogging with jekyll and getting it running on github pages
+meta_description: blogging with jekyll and getting it running on github pages
 comments: true
 share: true
 
