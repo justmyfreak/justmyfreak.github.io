@@ -66,3 +66,8 @@ app.listen(3000);
 {% highlight bash %}
 $ node --harmony app.js
 {% endhighlight %}
+
+# Next learning resources
+
+For the next lesson, we will be creating REST API using Koa.
+Stay tune :) 
