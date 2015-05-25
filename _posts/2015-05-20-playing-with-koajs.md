@@ -13,7 +13,6 @@ permalink: playing-with-koa-introduction
 ---
 
 # What is Koa?
-
 > Koa, next generation web framework for Node.js
 
 Koa is a new web framework which aims to be smaller, more expressive, and more robust foundation building web applications and APIs.
