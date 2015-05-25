@@ -8,6 +8,7 @@ category:
 - nodejs
 
 share: true
+comments: true
 
 permalink: playing-with-koa-introduction
 ---
