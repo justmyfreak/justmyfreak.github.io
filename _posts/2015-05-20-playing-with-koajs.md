@@ -30,3 +30,39 @@ Koa requires Node 0.11.x for the ```--harmony``` flag which enable ES6's generat
 $ node --harmony my-koa-app.js
 {% endhighlight %}
 
+# Getting Started
+
+Starting new Koa app is pretty simple
+
+### 1. Create new directory 
+
+{% highlight bash %}
+$ mkdir koa-sample
+$ cd koa-sample
+{% endhighlight %}
+
+### 2. Create blank package.json and add Koa
+
+{% highlight bash %}
+$ echo echo '{}' >> package.json 
+$ npm i koa --save
+{% endhighlight %}
+
+### 3. Create new ```app.js``` and paste following code :
+
+{% highlight javascript %}
+var koa = require('koa');
+var app = koa();
+
+app.use(function *(){
+  this.body = 'Hello World';
+});
+
+app.listen(3000);
+{% endhighlight %}
+
+### 4. Run the app and open [http://localhost:3000](http://localhost:3000)
+
+{% highlight bash %}
+$ node --harmony app.js
+{% endhighlight %}
