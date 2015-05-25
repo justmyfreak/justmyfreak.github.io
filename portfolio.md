@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Latest Portfolio
-permalink: /portfolio
+permalink: /portfolio/
 meta_description: Work portfolio of Zainul Setyo Pamungkas
 banner_image: sample-banner-image-2.jpg
 ---
