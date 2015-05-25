@@ -24,3 +24,8 @@ It's a common question. We have a lot of Node.js frameworks and one of them is E
 # Installation
 
 Koa requires Node 0.11.x for the ```--harmony``` flag which enable ES6's generators to the app.
+
+{% highlight bash %}
+$ node --harmony my-koa-app.js
+{% endhighlight %}
+
