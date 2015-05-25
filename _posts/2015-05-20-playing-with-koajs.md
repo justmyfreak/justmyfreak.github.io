@@ -44,7 +44,7 @@ $ cd koa-sample
 ### 2. Create blank package.json and add Koa
 
 {% highlight bash %}
-$ echo echo '{}' >> package.json 
+$ echo '{}' >> package.json 
 $ npm i koa --save
 {% endhighlight %}
 
