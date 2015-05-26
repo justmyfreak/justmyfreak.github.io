@@ -69,5 +69,5 @@ $ node --harmony app.js
 
 # Next learning resources
 
-For the next lesson, we will be creating REST API using Koa.
+For the next lesson, we will be creating Koa boilerplate to make development process easier.
 Stay tune :) 
