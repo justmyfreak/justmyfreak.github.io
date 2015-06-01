@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "koa-starter, a Koa starter template"
-description: "koa-starter is a starter template for Koa"
+title: "koa-starter, a Koa starting template"
+description: "koa-starter is a starting template for Koa"
 category: 
 - web dev
 - nodejs
@@ -25,19 +25,19 @@ comments: true
 
 # Getting started 
 
-**Clone koa-starter:**
+#### Clone koa-starter:
 
 {% highlight bash %}
 $ git clone https://github.com/justmyfreak/koa-starter.git
 {% endhighlight %}
 
-**Install dependencies:**
+#### Install dependencies:
 
 {% highlight bash %}
 $ npm install
 {% endhighlight %}
 
-**Run koa-starter:**
+#### Run koa-starter:
 
 {% highlight bash %}
 $ npm start
@@ -51,7 +51,7 @@ $ node --harmony index.js
 
 Open [http://localhost:3000](http://localhost:3000)
 
-**Run the test:**
+#### Run the test:
 
 {% highlight bash %}
 $ npm test
@@ -59,3 +59,40 @@ $ npm test
 
 # Creating new controller
 
+#### Create new controller inside `app/controllers/user.js`
+
+{% highlight javascript %}
+module.exports = {
+    index: function *(next) {
+        this.body = "User index";
+    },
+	
+    view: function *(next, username) {
+        this.body = "View user with username : "+this.params.username;
+    }
+};
+{% endhighlight %}
+
+#### Open `app/routes/index.js` and add newly created controller bellow indexCtrl
+
+{% highlight javascript %}
+module.exports = function(app) {
+    var Router 	    = require('koa-router'), 
+        indexCtrl   = require('../controllers/index'),
+        viewCtrl    = require('../controllers/user');
+
+        var router = new Router();
+{% endhighlight %}
+
+#### Define new endpoint
+
+{% highlight javascript %}
+router
+    .get('/users', viewCtrl.index)
+    .get('/user/:username', viewCtrl.view);
+
+{% endhighlight %}
+
+#### Open [http://localhost:3000/users](http://localhost:3000/users)
+
+#### Open [http://localhost:3000/user/myusername](http://localhost:3000/user/myusername)
