@@ -1,12 +1,12 @@
 # Site settings
-title: justmyfreak.com
+title: justmyfreak.github.io
 tagline: Just Another Code Artisan Blog 
 email: justmyfreak@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi, I’m a professional web and mobile app developer. 
   I love learning new technology.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://justmyfreak.com" # the base hostname & protocol for your site
+url: "https://justmyfreak.github.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "Zainul Setyo Pamungkas"
 author_thumbnail: "/assets/images/avatar.png" # Author avatar
